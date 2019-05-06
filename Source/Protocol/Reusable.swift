@@ -26,6 +26,7 @@
 
 import UIKit
 
+// swiftlint:disable:next explicit_top_level_acl
 extension UITableViewCell: Reusable {}
 
 

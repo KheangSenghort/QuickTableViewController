@@ -182,6 +182,7 @@ open class QuickTableViewController: UIViewController, UITableViewDataSource, UI
 
 
 #if os(iOS)
+// swiftlint:disable:next explicit_top_level_acl
 extension QuickTableViewController: SwitchCellDelegate {
 
   // MARK: - SwitchCellDelegate
