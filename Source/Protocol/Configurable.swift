@@ -33,9 +33,9 @@ public protocol Configurable {
 }
 
 
-extension UITableViewCell {
+internal extension UITableViewCell {
 
-  internal func defaultSetUp(with row: Row & RowStyle) {
+  func defaultSetUp(with row: Row & RowStyle) {
     textLabel?.text = row.text
     detailTextLabel?.text = row.detailText?.text
 
